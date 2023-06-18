@@ -10,7 +10,7 @@ $db=connectToDatabase();
 $id=-1;
 $name="";
 $val="";
-var_dump($_POST);
+// var_dump($_POST);
 if (isset($_POST['edit']))
 {
 $select="select * from setting where id=?";
